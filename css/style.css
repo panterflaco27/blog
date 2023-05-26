@@ -23,6 +23,12 @@
     color: aqua;
 }
 
+.info{
+    background-color:aliceblue;
+    border-radius: 10px;
+    width: 80%;
+}
+
 section {
     padding-top: 60px;
 }
