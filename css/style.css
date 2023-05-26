@@ -45,8 +45,9 @@ body{
     width: 100%;
 }
 
-.footer{
+footer{
     width: 100%;
+    position: absolute;
 }
 
 footer section{
@@ -60,7 +61,7 @@ hr{
     height: 2px;
 }
 
-a{
+footer a{
     text-decoration: none;
 }
 .bottom-footer{
