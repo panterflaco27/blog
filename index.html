@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Blog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <script src="/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <!--navbar-->
+        <header class="header" id="header">
+            <nav class="navbar navbar-header">
+                <div class="container-fluid navfix">
+                    <a class="navbar-brand" href="#">
+                        <img class="logo" src="/img/logo.jpeg" alt="AvenArg log">
+                    </a>
+                    <div class="mx-auto bar">
+                        <a href="#sobremi">Sobre mí</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#clientes">Clientes</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--section sobre mi-->
+        <section id="sobremi">
+            <div class="row mx-auto align-items-center">
+                <div class="col">
+                    <img src="/img/logo.jpeg" alt="logo" style="border-radius: 15px; position:sticky;">
+                </div>
+                <div class="col">
+                    <h2 class="h2">
+                        me gusta comer sopa,
+                        tambien suelo comer lentejas
+                        y uno que otro cigarro por las mañanas
+                        pero sobre todo, disfruto comer dulces :D
+                        viva AMLO!!!!!!!!!!!!!!
+                    </b2>
+                </div>
+            </div>
+        </section>
+
+        <!--section servicios-->
+        <section id="servicios">
+            <center>
+                <div class="card-group">
+                
+                    <div class="card">
+                        <img src="/img/logo.jpeg" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Soporte técnico</h5>
+                            <p>Servicio de soporte técnico en dispositivos como: </p>
+                            <li>PC</li>
+                            <li>Laptop</li>
+                        </div>
+                    </div>
+                
+                    <div class="card">
+                        <img src="/img/logo.jpeg" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Ascesorias</h5>
+                            <p>Ascesorias en temas básicos de: </p>
+                            <li>Programación</li>
+                            <li>Desarrollo web</li>
+                            <li>Desarrollo de juegos 2D</li>
+                        </div>
+                    </div>
+                
+                    <div class="card">
+                        <img src="/img/logo.jpeg" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Desarrollo</h5>
+                            <p>Desarrollo de software en lenguajes como: </p>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                        </div>
+                    </div>
+                
+                    <div class="card">
+                        <img src="/img/logo.jpeg" alt="logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Frameworks</h5>
+                            <p>Manejo de frameworks de desarrollo: </p>
+                            <li>Laravel</li>
+                            <li>Node.js</li>
+                            <li>Bootstrap 5</li>
+                        </div>
+                    </div>
+                
+                </div>
+            </center>
+        </section>
+
+
+
+        <!--seccion de clientes-->
+        <section id="clientes">
+            <div id="carouselclientes" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselclientes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselclientes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselclientes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/banner.png" alt="banner" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ISC. Gerardo Manuel Valtierra Flores</h5>
+                            <p>Desarrollo de un buscador inteligente utilizando Neo4j, Node.js y Express</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="/img/banner.png" alt="banner" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ISC. Rubén Retureta Chimalhua</h5>
+                            <p>Desarrollo de un formulario web para física cinemática utilizando MongoDB, Node.js y Bootstrap 5</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="/img/banner.png" alt="banner" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>ISC. Rafael Fuentes Moctezuma</h5>
+                            <p>Desarrollo de una base de conocimiento orientada a la educación, utilizando MongoDB, Node.js, Express y Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselclientes" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselclientes" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <br><br><br>
+        <div class="container my-5">
+
+            <!--footer-->
+            <footer class="text-center text-lg-start text-white">
+
+                <section id="footerContent" class="d-flex justify-content-between p-4">
+                    <div class="me-5">
+                        <span>Redes sociales:</span>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/panterflac.31/" class="text-white me-3">
+                            <i class="bi-facebook"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCTYFL4ml5TaTh5YBY5IdSxw" class="text-white me-3">
+                            <i class="bi bi-youtube"></i>
+                        </a>
+                        <a href="https://github.com/panterflaco27" class="text-white me-3">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="582327261752066048" class="text-white me-4">
+                            <i class="bi bi-discord"></i>
+                        </a>
+                    </div>
+                </section>
+            </footer>
+        </div>
+</html>
